@@ -31,7 +31,7 @@ Config = {
 
 	CarDespawn = true, -- Sends the vehicle to hell (removal animation)
 
-	DistCheck = false, -- Require the vehicle to be near by to remove it
+	DistCheck = true, -- Require the vehicle to be near by to remove it
 
 	Locations = {
 		{ 	zoneEnable = true,
@@ -83,6 +83,27 @@ Config = {
 				list = {
 					["ambulance"] = {
 						CustomName = "Ambulance"
+					},
+				},
+			},
+		},
+		{ 	zoneEnable = true,
+			job = "taxi",
+			garage = {
+				spawn = vec4(910.97, -170.17, 74.21, 147.45),
+				out = vec4(905.85, -179.07, 74.11, 328.94),
+				list = {
+					["taxi"] = {
+						CustomName = "Taxi",
+						rank = {0},
+					},
+					["e300luxury"] = {
+						CustomName = "Executive",
+						rank = {1},
+					},
+					["s632023"] = {
+						CustomName = "Luxury",
+						rank = {2},
 					},
 				},
 			},
