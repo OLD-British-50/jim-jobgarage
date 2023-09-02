@@ -93,10 +93,6 @@ Config = {
 				spawn = vec4(910.97, -170.17, 74.21, 147.45),
 				out = vec4(904.94, -164.87, 74.1, 237.22),
 				list = {
-					["taxi"] = {
-						CustomName = "Taxi",
-						rank = {0},
-					},
 					["e300luxury"] = {
 						CustomName = "Executive",
 						rank = {1},
