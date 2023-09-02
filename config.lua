@@ -87,22 +87,5 @@ Config = {
 				},
 			},
 		},
-		{ 	zoneEnable = true,
-			job = "taxi",
-			garage = {
-				spawn = vec4(910.97, -170.17, 74.21, 147.45),
-				out = vec4(904.94, -164.87, 74.1, 237.22),
-				list = {
-					["e300luxury"] = {
-						CustomName = "Executive",
-						rank = {1},
-					},
-					["s632023"] = {
-						CustomName = "Luxury",
-						rank = {2},
-					},
-				},
-			},
-		},
 	},
 }
