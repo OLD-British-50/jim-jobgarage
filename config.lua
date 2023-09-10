@@ -51,6 +51,17 @@ Config = {
 				},
 			},
 		},
+		{ 	zoneEnable = true,
+			job = "burgershot",
+			garage = {
+				spawn = vec4(-1173.0, -899.68, 13.58, 324.91),  -- Where the car will spawn
+				out = vec4(-1170.47, -900.8, 13.81, 29.65),	-- Where the parking stand is
+				list = {
+					["stalion2"] = { },
+					["burrito3"] = { },
+				},
+			},
+		},
 		{ 	zoneEnable = false,
 			job = "police",
 			garage = {
