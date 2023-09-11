@@ -62,6 +62,24 @@ Config = {
 				},
 			},
 		},
+		{ 	zoneEnable = true,
+			job = "taxi",
+			garage = {
+				spawn = vec4(908.55, -176.1, 74.17, 235.74),  -- Where the car will spawn
+				out = vec4(904.96, -164.92, 74.1, 239.86),	-- Where the parking stand is
+				list = {
+					["taxi"] = {
+						grade = 0,
+					},
+					["e300luxury"] = {
+						grade = 1,
+					 },
+					["s632023"] = {
+						grade = 2,
+					},
+				},
+			},
+		},
 		{ 	zoneEnable = false,
 			job = "police",
 			garage = {
